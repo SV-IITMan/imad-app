@@ -22,6 +22,8 @@ app.get("/article_three",function(req,res){
     
 });
 
+                                                                        //note all three works fine;
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
