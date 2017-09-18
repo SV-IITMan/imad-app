@@ -18,7 +18,7 @@ app.get('/article_two',function(apple,banana){
 });
 
 app.get("/article_three",function(req,res){
-    res.send("! Article Three Here ! ");
+    res.sendFile(path.join(__dirname, 'ui', 'article_three.html'));
     
 });
 
